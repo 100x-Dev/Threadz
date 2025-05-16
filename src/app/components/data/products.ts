@@ -5,6 +5,7 @@ export interface Product {
     category: 'hoodie' | 'tshirt';
     image: string;
     colors: string[];
+    sizes: string[];
     isNew?: boolean;
     isBestseller?: boolean;
 }
@@ -17,6 +18,7 @@ export const products: Product[] = [
         category: "hoodie",
         image: "https://images.pexels.com/photos/5698853/pexels-photo-5698853.jpeg?auto=compress&cs=tinysrgb&w=1600",
         colors: ["Black", "Gray", "Navy"],
+        sizes: ["S", "M", "L", "XL"],
         isNew: true
     },
     {
@@ -26,6 +28,7 @@ export const products: Product[] = [
         category: "hoodie",
         image: "https://images.pexels.com/photos/6311392/pexels-photo-6311392.jpeg?auto=compress&cs=tinysrgb&w=1600",
         colors: ["Black", "White", "Olive"],
+        sizes: ["XS", "S", "M", "L", "XL"],
         isBestseller: true
     },
     {
@@ -34,7 +37,8 @@ export const products: Product[] = [
         price: 29.99,
         category: "tshirt",
         image: "https://images.pexels.com/photos/5384429/pexels-photo-5384429.jpeg?auto=compress&cs=tinysrgb&w=1600",
-        colors: ["White", "Black", "Gray", "Navy"]
+        colors: ["White", "Black", "Gray", "Navy"],
+        sizes: ["S", "M", "L", "XL", "XXL"]
     },
     {
         id: 4,
@@ -43,6 +47,7 @@ export const products: Product[] = [
         category: "tshirt",
         image: "https://images.pexels.com/photos/6764036/pexels-photo-6764036.jpeg?auto=compress&cs=tinysrgb&w=1600",
         colors: ["Black", "White"],
+        sizes: ["XS", "S", "M", "L"],
         isNew: true
     },
     {
@@ -51,7 +56,8 @@ export const products: Product[] = [
         price: 64.99,
         category: "hoodie",
         image: "https://images.pexels.com/photos/7691119/pexels-photo-7691119.jpeg?auto=compress&cs=tinysrgb&w=1600",
-        colors: ["Gray", "Black", "Maroon"]
+        colors: ["Gray", "Black", "Maroon"],
+        sizes: ["S", "M", "L", "XL"]
     },
     {
         id: 6,
@@ -59,7 +65,8 @@ export const products: Product[] = [
         price: 27.99,
         category: "tshirt",
         image: "https://images.pexels.com/photos/6311659/pexels-photo-6311659.jpeg?auto=compress&cs=tinysrgb&w=1600",
-        colors: ["White", "Black", "Olive"]
+        colors: ["White", "Black", "Olive"],
+        sizes: ["XS", "S", "M", "L", "XL"]
     },
     {
         id: 7,
@@ -68,6 +75,7 @@ export const products: Product[] = [
         category: "hoodie",
         image: "https://images.pexels.com/photos/9558898/pexels-photo-9558898.jpeg?auto=compress&cs=tinysrgb&w=1600",
         colors: ["Black", "Beige", "Gray"],
+        sizes: ["M", "L", "XL", "XXL"],
         isBestseller: true
     },
     {
@@ -76,6 +84,7 @@ export const products: Product[] = [
         price: 32.99,
         category: "tshirt",
         image: "https://images.pexels.com/photos/10043264/pexels-photo-10043264.jpeg?auto=compress&cs=tinysrgb&w=1600",
-        colors: ["White", "Black", "Sage"]
+        colors: ["White", "Black", "Sage"],
+        sizes: ["S", "M", "L", "XL"]
     }
 ];

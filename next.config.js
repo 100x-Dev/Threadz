@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  /* config options here */
+  cache: false, // Temporarily disable caching to resolve the ENOENT error
 };
 
 module.exports = nextConfig;
